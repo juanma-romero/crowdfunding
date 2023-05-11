@@ -1,0 +1,12 @@
+body {
+    font-family: 'Commissioner', sans-serif;
+    object-fit: contain;
+    background-image: url('/image-hero-desktop.jpg');
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url('/image-hero-mobile.jpg');
+    }
+}
